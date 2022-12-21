@@ -56,5 +56,28 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\tables" />
+    <Folder Include="publish profiles\" />
+    <Folder Include="dbo\StoredProcedures" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\tables\User.sql" />
+    <Build Include="dbo\tables\Client.sql" />
+    <Build Include="dbo\tables\Employee.sql" />
+    <Build Include="dbo\tables\Test.sql" />
+    <Build Include="dbo\tables\Appointment.sql" />
+    <Build Include="dbo\tables\Units.sql" />
+    <Build Include="dbo\tables\Components.sql" />
+    <Build Include="dbo\tables\Test_results.sql" />
+    <Build Include="dbo\StoredProcedures\spUser_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spClient_Insert.sql" />
+    <Build Include="dbo\StoredProcedures\spEmp_Insert.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="LabDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="publish profiles\LabDB.publish.xml" />
   </ItemGroup>
 </Project>
