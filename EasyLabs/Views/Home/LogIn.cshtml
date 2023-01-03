@@ -1,0 +1,43 @@
+﻿@model EasyLabs.Models.LogInModel
+
+@{
+    ViewData["Title"] = "LogIn";
+}
+
+<h1>Log In</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LogIn">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="mail" class="control-label"></label>
+                <input asp-for="mail" class="form-control" />
+                <span asp-validation-for="mail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="password" class="control-label"></label>
+                <input asp-for="password" class="form-control" />
+                <span asp-validation-for="password" class="text-danger"></span>
+            </div>
+           <br />
+            <div class="form-group">
+                <input type="submit" value="Log In" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@if (TempData["NoSuchUser"] != null)
+{
+    <div class="alert-fail" style="background-color: #fa483c">@TempData["NoSuchUser"]</div>
+}
+@if (TempData["IncorrectPassword"] != null)
+{
+    <div class="alert-fail" style="background-color: #fa483c">@TempData["IncorrectPassword"]</div>
+}
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

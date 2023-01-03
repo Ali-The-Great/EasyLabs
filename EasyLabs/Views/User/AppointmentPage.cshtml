@@ -1,0 +1,43 @@
+﻿@model EasyLabs.Models.AppointmentModel
+
+@{
+    ViewData["Title"] = "AppointmentPage";
+}
+
+<h1>Appointment Page</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AppointmentPage">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Date" class="control-label"></label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Test_Type" class="control-label"></label>
+                <input asp-for="Test_Type" class="form-control" />
+                <span asp-validation-for="Test_Type" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@if (TempData["InvalidTest"] != null)
+{
+    <div class="alert-fail" style="background-color: #fa483c">@TempData["InvalidTest"]</div>
+}
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

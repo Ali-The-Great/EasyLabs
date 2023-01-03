@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Appointment] (Table)
+       [dbo].[Components] (Table)
+       [dbo].[Results] (Table)
+       [dbo].[Test] (Table)
+       [dbo].[Units] (Table)
+       [dbo].[User] (Table)
+       Foreign Key: unnamed constraint on [dbo].[Appointment] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Appointment] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Components] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Components] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Results] (Foreign Key)
+       Foreign Key: unnamed constraint on [dbo].[Results] (Foreign Key)
+
+** Supporting actions

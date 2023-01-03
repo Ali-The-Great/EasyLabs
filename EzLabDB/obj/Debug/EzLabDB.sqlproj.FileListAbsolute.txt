@@ -1,0 +1,10 @@
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\bin\Debug\EzLabDB.dacpac
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\EzLabDB.sqlproj.AssemblyReference.cache
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\Model.xml
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\refactor.xml
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\postdeploy.sql
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\predeploy.sql
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\EzLabDB.dll
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\obj\Debug\EzLabDB.pdb
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\bin\Debug\EzLabDB.dll
+C:\Users\Ali\source\repos\EasyLabs\EzLabDB\bin\Debug\EzLabDB.pdb
