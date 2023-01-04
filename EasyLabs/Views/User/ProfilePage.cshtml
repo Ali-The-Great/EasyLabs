@@ -5,37 +5,19 @@
 }
 
 <h1>Profile Page</h1>
+<div class="row mt-4">
+    <div class="col-md-3">
+        <img src="~/img/5770f01a32c3c53e90ecda61483ccb08.jpg" alt="Profile Picture" class="img-fluid rounded-circle">
+        <h3 class="mt-3">@Model.name</h3>
+        <p>@Model.gender</p>
+    </div>
+    <div class="col-md-9">
+        <h3>Contact Information</h3>
+        <ul class="list-group">
+            <li class="list-group-item"><strong>Phone:</strong> @Model.phone_number</li>
+            <li class="list-group-item"><strong>Email:</strong> @Model.mail</li>
+        </ul>
+        <a href="@Url.Action("AppointmentPage", "User", new { mail = Model.mail })" class="btn btn-primary mt-3">Book an appointment</a>
+    </div>
+</div>
 
-<div>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.name)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.name)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.phone_number)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.phone_number)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.mail)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.mail)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.gender)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.gender)
-        </dd>
-    </dl>
-</div>
-<br />
-<div>
-    <a asp-action="AppointmentPage" asp-route-mail="@Model.mail">Book an appointment</a>
-</div>

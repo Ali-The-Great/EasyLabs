@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EasyLabs
 build_property.RootNamespace = EasyLabs
-build_property.ProjectDir = C:\Users\Ali\source\repos\EasyLabs\EasyLabs\
+build_property.ProjectDir = C:\Users\Ali\Documents\GitHub\EasyLabs\EasyLabs\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Ali\source\repos\EasyLabs\EasyLabs
+build_property.MSBuildProjectDirectory = C:\Users\Ali\Documents\GitHub\EasyLabs\EasyLabs
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Home/Index.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Home/LogIn.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Home/LogIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dJbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Home/Privacy.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Home/SignUp.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Home/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWduVXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Shared/Error.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/User/AppointmentPage.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/User/AppointmentPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBcHBvaW50bWVudFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/User/ProfilePage.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/User/ProfilePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/_ViewImports.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/_ViewStart.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Ali/source/repos/EasyLabs/EasyLabs/Views/Shared/_Layout.cshtml]
+[C:/Users/Ali/Documents/GitHub/EasyLabs/EasyLabs/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xvsiv199sw

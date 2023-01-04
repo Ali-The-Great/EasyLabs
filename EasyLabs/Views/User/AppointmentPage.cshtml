@@ -5,7 +5,6 @@
 }
 
 <h1>Appointment Page</h1>
-
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -25,19 +24,27 @@
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
+            <br />
+            <h3>Available Test Types</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Bloodwork</li>
+                <li class="list-group-item">Urinalysis</li>
+            </ul>
         </form>
     </div>
+    <div class="col-md-8">
+        <img src="~/img/Block-Scheduling.png" alt="Appointment illustration" class="img-fluid">
+        <h3>Schedule your appointment today</h3>
+        <p>We offer a variety of tests and services to meet your healthcare needs. Simply fill out the form on the left to schedule your appointment today.</p>
+    </div>
 </div>
-
-
-
 @if (TempData["InvalidTest"] != null)
 {
     <div class="alert-fail" style="background-color: #fa483c">@TempData["InvalidTest"]</div>
 }
 
-
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

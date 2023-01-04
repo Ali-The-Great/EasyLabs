@@ -3,56 +3,74 @@
 @{
     ViewData["Title"] = "SignUp";
 }
+<style>
+    label {
+        display: block;
+        text-align: left;
+        margin-bottom: 5px;
+    }
 
-<h1>Sign Up</h1>
+    input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
 
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="SignUp">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="name" class="control-label"></label>
-                <input asp-for="name" class="form-control" />
-                <span asp-validation-for="name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="phone_number" class="control-label"></label>
-                <input asp-for="phone_number" class="form-control" />
-                <span asp-validation-for="phone_number" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="mail" class="control-label"></label>
-                <input asp-for="mail" class="form-control" />
-                <span asp-validation-for="mail" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="password" class="control-label"></label>
-                <input asp-for="password" class="form-control" />
-                <span asp-validation-for="password" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="confirmPassword" class="control-label"></label>
-                <input asp-for="confirmPassword" class="form-control" />
-                <span asp-validation-for="confirmPassword" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="gender" class="control-label"></label>
-                <input asp-for="gender" class="form-control" />
-                <span asp-validation-for="gender" class="text-danger"></span>
-            </div>
-            <br />
-            <div class="form-group">
-                <input type="submit" value="Sign Up" class="btn btn-primary" />
-            </div>
-        </form>
+    form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+</style>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="text-center mb-5">Sign Up</h1>
+            <hr />
+            <form asp-action="SignUp">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="name" class="control-label"></label>
+                    <input asp-for="name" class="form-control" />
+                    <span asp-validation-for="name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="phone_number" class="control-label"></label>
+                    <input asp-for="phone_number" class="form-control" />
+                    <span asp-validation-for="phone_number" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="mail" class="control-label"></label>
+                    <input asp-for="mail" class="form-control" />
+                    <span asp-validation-for="mail" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="password" class="control-label"></label>
+                    <input asp-for="password" class="form-control" />
+                    <span asp-validation-for="password" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="confirmPassword" class="control-label"></label>
+                    <input asp-for="confirmPassword" class="form-control" />
+                    <span asp-validation-for="confirmPassword" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="gender" class="control-label"></label>
+                    <input asp-for="gender" class="form-control" />
+                    <span asp-validation-for="gender" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" value="Sign Up" class="btn btn-primary" />
+                </div>
+            </form>
+            @if (TempData["UserExists"] != null)
+            {
+                <div class="alert-fail" style="background-color: #fa483c">@TempData["UserExists"]</div>
+            }
+        </div>
     </div>
 </div>
-@if (TempData["UserExists"] != null)
-{
-    <div class="alert-fail" style="background-color: #fa483c">@TempData["UserExists"]</div>
-}
-
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

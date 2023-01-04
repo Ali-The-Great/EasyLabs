@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ali\\source\\repos\\EasyLabs\\EasyLabs\\EasyLabs.csproj": {}
+    "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\EasyLabs\\EasyLabs.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\DataLibrary.csproj": {
+    "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\DataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\DataLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\DataLibrary.csproj",
         "projectName": "DataLibrary",
-        "projectPath": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\DataLibrary.csproj",
+        "projectPath": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\DataLibrary.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -69,14 +69,14 @@
         }
       }
     },
-    "C:\\Users\\Ali\\source\\repos\\EasyLabs\\EasyLabs\\EasyLabs.csproj": {
+    "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\EasyLabs\\EasyLabs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\EasyLabs\\EasyLabs.csproj",
+        "projectUniqueName": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\EasyLabs\\EasyLabs.csproj",
         "projectName": "EasyLabs",
-        "projectPath": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\EasyLabs\\EasyLabs.csproj",
+        "projectPath": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\EasyLabs\\EasyLabs.csproj",
         "packagesPath": "C:\\Users\\Ali\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\EasyLabs\\obj\\",
+        "outputPath": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\EasyLabs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -97,8 +97,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\DataLibrary.csproj": {
-                "projectPath": "C:\\Users\\Ali\\source\\repos\\EasyLabs\\DataLibrary\\DataLibrary.csproj"
+              "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\DataLibrary.csproj": {
+                "projectPath": "C:\\Users\\Ali\\Documents\\GitHub\\EasyLabs\\DataLibrary\\DataLibrary.csproj"
               }
             }
           }
